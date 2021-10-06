@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"Anagram"},{"l":"Bingo"},{"l":"BubbleSort"},{"l":"Calculator"},{"l":"CapitalLetter"},{"l":"Interval"},{"l":"lesson5"},{"l":"lesson5.car"}]
