@@ -4,12 +4,13 @@ import HM5.passenger.Dog;
 import HM5.passenger.Human;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
         Bus bus = new Bus();
-        bus.setBusStops(List.of(new String[]{"Добровольського", "Пупка", "Бул. Шевченка", "Коко", "Бубу"}));
+        bus.setBusStops(Arrays.asList("Добровольського", "Пупка", "Бул. Шевченка", "Коко", "Бубу"));
         List<Human> humanList = new ArrayList<>();
         Dog dog = new Dog("Манджара");
         humanList.add(new Human("Еля"));
