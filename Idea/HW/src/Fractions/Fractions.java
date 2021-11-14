@@ -17,12 +17,10 @@ public class Fractions {
         return CalcGreatestCommonDivisor(a, b) == 1;
     }
     public static int CalcGreatestCommonDivisor(int a, int b){
-        for(int i = Math.min(a, b); i > 1; i--){
-            if(a % i == 0 && b % i == 0){
-                return i;
-            }
+        if(b == 0){
+            return a;
         }
-        return 1;
+        return CalcGreatestCommonDivisor(b, a % b);
     }
     public static void main(String[] args) {
         System.out.print("Enter n:");
